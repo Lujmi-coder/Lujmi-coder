@@ -1,0 +1,25 @@
+if(true) {
+   showMessage('true');
+}  
+Result: show true.
+
+if(false) {
+   showMessage('true');
+}  
+Result: show nothing.
+
+if(1 === 1) {
+   showMessage('true');
+}  
+Result: show true.
+
+if(1 === 2) {
+   showMessage('true');
+}  
+Result: show nothing.
+
+let price = 20;
+if(price > 20) {
+   showMessage('discounted');
+Result: show discounted.   
+
